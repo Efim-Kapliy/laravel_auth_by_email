@@ -10,7 +10,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
+        <div class="container container-fluid">
             <a class="navbar-brand" href="{{ route('home') }}">Logo</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -41,8 +41,9 @@
         </div>
     </nav>
 
-    <main class="main mt-3" <div class="container">
-        @yield('content')
+    <main class="main mt-3">
+        <div class="container">
+            @yield('content')
         </div>
     </main>
 
